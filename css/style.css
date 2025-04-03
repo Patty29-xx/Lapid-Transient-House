@@ -1462,14 +1462,23 @@ a:hover {
   opacity: .9;
 }
 
+
 .card-box-d:hover .title-d,
+.card-box-d:hover .content-d,
+.card-box-d:hover .info-agents,
+.card-box-d:hover .card-footer-d {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* .card-box-d:hover .title-d,
 .card-box-d:hover .content-d,
 .card-box-d:hover .info-agents,
 .card-box-d:hover .card-footer-d {
   opacity: 1;
   -webkit-transform: translateY(0);
   transform: translateY(0);
-}
+} */
 
 /*------/ Agent Single /------*/
 
@@ -2099,6 +2108,19 @@ footer .credits {
   .card-body-c {
     padding: 0;
   }
+  .card-box-d .card-overlay-hover {
+    background-color: rgba(249, 250, 240, 0.8); 
+    opacity: .9;
+  }
+
+  .card-box-d .title-d,
+  .card-box-d .content-d,
+  .card-box-d .info-agents,
+  .card-box-d .card-footer-d {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
 }
 
 @media (max-width: 575px) {
