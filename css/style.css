@@ -24,7 +24,7 @@ h6 {
 }
 
 a {
-  color: #000000;
+  color: #555555;
   transition: all .5s ease;
 }
 
@@ -1056,9 +1056,8 @@ a:hover {
 }
 
 /*======================================
-//--//-->  UNITS
+//--//-->  CONTACTS
 ======================================*/
-
 
 
 
@@ -1467,7 +1466,7 @@ a:hover {
 .card-box-d:hover .info-agents,
 .card-box-d:hover .card-footer-d {
   opacity: 1;
-  -webkit-transform: translateY(0);
+  /* -webkit-transform: translateY(0); */
   transform: translateY(0);
 }
 
@@ -1944,9 +1943,9 @@ footer .credits {
     font-size: 18px;
   }
 
-  .list-a li {
-    /* width: 33.333%; */
-  }
+  /* .list-a li {
+    width: 33.333%;
+  } */
 
   .intro .intro-title-top {
     font-size: 1rem;
@@ -2013,7 +2012,7 @@ footer .credits {
 
   .card-box-d .card-body-d p {
     margin-bottom: 12px;
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
   .sinse-box {
@@ -2098,6 +2097,19 @@ footer .credits {
 
   .card-body-c {
     padding: 0;
+  }
+
+  .card-box-d .card-overlay-hover {
+    background-color: rgba(249, 250, 240, 0.8); 
+    opacity: .9;
+  }
+
+  .card-box-d .title-d,
+  .card-box-d .content-d,
+  .card-box-d .info-agents,
+  .card-box-d .card-footer-d {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
