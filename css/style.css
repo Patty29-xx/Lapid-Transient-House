@@ -439,7 +439,6 @@ a:hover {
 }
 
 /* Back to top button */
-
 .back-to-top {
   position: fixed;
   display: none;
@@ -452,15 +451,44 @@ a:hover {
   font-size: 16px;
   border-radius: 50%;
   right: 15px;
-  bottom: 15px;
+  bottom: 15px; /* Stick to bottom */
   transition: background 0.5s;
   z-index: 11;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .back-to-top i {
   padding-top: 12px;
   color: #fff;
 }
+
+/* Messenger Icon - Above back-to-top */
+.messenger-chat {
+  position: fixed;
+  bottom: 70px; 
+  right: 15px;
+  background: #0084ff;
+  color: #fff;
+  width: 44px; 
+  height: 44px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 18px; 
+  z-index: 11;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background 0.5s;
+  text-align: center;
+}
+
+.messenger-chat:hover {
+  background: #006fe6;
+  color: #fff;
+  text-decoration: none;
+}
+
+
 
 /* Prelaoder */
 
