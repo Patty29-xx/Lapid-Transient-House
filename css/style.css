@@ -1,14 +1,3 @@
-/*
-  Theme Name: EstateAgency
-  Theme URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-/*======================================
-//--//-->   STYLES GENERALES
-======================================*/
-
 body {
   font-family: 'Poppins', sans-serif;
   color: #555555;
@@ -1499,6 +1488,7 @@ a:hover {
   opacity: .9;
 }
 
+
 .card-box-d:hover .title-d,
 .card-box-d:hover .content-d,
 .card-box-d:hover .info-agents,
@@ -1507,6 +1497,15 @@ a:hover {
   /* -webkit-transform: translateY(0); */
   transform: translateY(0);
 }
+
+/* .card-box-d:hover .title-d,
+.card-box-d:hover .content-d,
+.card-box-d:hover .info-agents,
+.card-box-d:hover .card-footer-d {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+} */
 
 /*------/ Agent Single /------*/
 
